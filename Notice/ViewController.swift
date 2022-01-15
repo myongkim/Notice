@@ -98,8 +98,9 @@ extension ViewController {
                 
             }
             
-            let cancelAction = UIAlertAction(title: "취소", style: .cancel, handler: nil)
+            
             let alertContrller = UIAlertController(title: "Surprise Event", message: message, preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "취소", style: .cancel, handler: nil)
             
             alertContrller.addAction(confirmAction)
             alertContrller.addAction(cancelAction)
@@ -113,4 +114,3 @@ extension ViewController {
         
     }
 }
-
